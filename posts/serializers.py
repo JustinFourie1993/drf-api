@@ -23,7 +23,7 @@ class PostSerializer(serializers.ModelSerializer):
                 'Image height larger than 4096px'
             )
         return value
-        
+
 
     def get_is_owner(self, obj):
         request = self.context['request']
