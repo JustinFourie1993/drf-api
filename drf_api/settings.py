@@ -35,7 +35,7 @@ SECRET_KEY = 'django-insecure-spoi9w18vjf42!*6=*!l%1e^)d6rf2=_7(@&2jb4cmtc2(w5m$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-justinfourie1993-drf-api-917b13yi6m.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-justinfourie1993-drf-api-yk74avgeuw.us2.codeanyapp.com']
 
 
 # Application definition
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'rest_framework',
+    'django_filters',
 
     'profiles',
     'posts',
