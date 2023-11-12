@@ -59,7 +59,8 @@ REST_AUTH_SERIALIZERS = {
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEV' in os.environ
+# DEBUG = 'DEV' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-justinfourie1993-drf-api-yk74avgeuw.us2.codeanyapp.com',
                  'https://git.heroku.com/drf-api-justin.git']
