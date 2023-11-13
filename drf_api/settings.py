@@ -65,7 +65,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = ['8000-justinfourie1993-drf-api-yk74avgeuw.us2.codeanyapp.com',
-                 'https://drf-api-justin-24076585df64.herokuapp.com/']
+                 'drf-api-justin-24076585df64.herokuapp.com']
 
 
 # Application definition
